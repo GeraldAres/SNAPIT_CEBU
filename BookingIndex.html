@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Form</title>
+    <link rel="stylesheet" href="StyleBook.css">
+    <link rel="icon" href="LOGO.jpg" type ="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <h1>Get In Touch</h1>
+            <p>We'd love to hear from you! Book your photobooth experience today.</p>
+        </div>
+
+         <!-- Map Background -->
+         <div class="map-background">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.173288741132!2d123.90374007587457!3d10.328013189794842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a99921dc1502cd%3A0x14da459df63f6995!2sCebu%20IT%20Park!5e0!3m2!1sen!2sph!4v1744262464314!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    <div class="form-container">
+    <!-- Contact Information Section -->
+    <div class="contact-info">
+        <h2 class="info-title">Contact Information</h2>
+        
+        <div class="info-item">
+            <span class="label">Location</span>
+            <p class="value">IT Park, Cebu City, Philippines</p>
+        </div>
+        
+        <div class="info-item">
+            <span class="label">Phone</span>
+            <p class="value">+63 912 345 6789</p>
+        </div>
+        
+        <div class="info-item">
+            <span class="label">Email</span>
+            <p class="value">info@example.com</p>
+        </div>
+        
+        <div class="info-item">
+            <span class="label">Business Hours</span>
+            <p class="value">Monday - Sunday: 9:00 AM - 9:00 PM</p>
+        </div>
+        
+        <div class="info-item">
+            <span class="label">Follow Us</span>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Booking Form Section -->
+    <div class="form-section">
+        <form>
+            <div class="form-group">
+                <label for="fullName" class="required">Full Name</label>
+                <input type="text" id="fullName" class="form-control" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email" class="required">Email Address</label>
+                <input type="email" id="email" class="form-control" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="phone" class="required">Phone Number</label>
+                <input type="tel" id="phone" class="form-control" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="eventType">Event Type</label>
+                <select id="eventType" class="form-select">
+                    <option selected disabled>Select Event Type</option>
+                    <option>Wedding</option>
+                    <option>Birthday</option>
+                    <option>Corporate Event</option>
+                    <option>Other</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="eventDate">Event Date</label>
+                <input type="date" id="eventDate" class="form-control">
+            </div>
+            
+            <div class="form-group">
+                <label for="message" class="required">Message</label>
+                <textarea id="message" class="form-control message-area" required></textarea>
+            </div>
+            
+            <button type="submit" class="btn-submit">Send Message</button>
+        </form>
+    </div>
+</div>
+</div>
+</body>
+</html>
